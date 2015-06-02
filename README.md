@@ -10,3 +10,8 @@ Essentially, I envision an agreed-upon set of actions (the protocol) and
 hooks run for each event.  The hooks could be made in any language, but
 I envision "game files" with Lua code in them to help standardize the
 game play.
+
+I envision using shuffling techniques like mental poker for shuffling
+cards securely, _i.e._ no player can know a card not dealt to them or in
+the discard. The hooks being responsible for honest play, just as other
+players need to ensure that that a player in real life isn't cheating.

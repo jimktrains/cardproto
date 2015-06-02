@@ -8,9 +8,9 @@ Decks
 
 Location
 --------
- * Deck
- * Discard
- * Fan
+ * Deck ( Single Stack, face down)
+ * Discard (Single Stack, face up)
+ * Fan (Ordered list of cards, face up)
 
 Actions & Events
 ----------------
@@ -19,6 +19,7 @@ Actions & Events
  * Remove all suit <suit>
  * Shuffle Deck
  * Shuffle Discard, Replace Deck
+ * Burn from Deck
  * Deal Next Player
  * Skip Next Player
  * Poker Deal, all players
