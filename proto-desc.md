@@ -10,7 +10,8 @@ Location
 --------
  * Deck ( Single Stack, face down)
  * Discard (Single Stack, face up)
- * Fan (Ordered list of cards, face up)
+ * Crib (Single Stack, face down)
+ * Flop (Ordered list of cards, face up)
 
 Actions & Events
 ----------------
@@ -20,13 +21,16 @@ Actions & Events
  * Shuffle Deck
  * Shuffle Discard, Replace Deck
  * Burn from Deck
+  * Remove from game
+  * Add to Location
  * Deal Next Player
  * Skip Next Player
  * Poker Deal, all players
  * Current Player
   * Draw Deck
   * Draw Discard
-  * Draw Fan <card>
+  * Draw Flop <card>
   * Play Down <cards>
-  * Discard to Fan
+  * Discard to Flop
   * Discard to Discard
+  * Bet/Ante
